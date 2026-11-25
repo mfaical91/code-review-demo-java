@@ -1,0 +1,10 @@
+INSERT INTO app_users (id, email, full_name, role) VALUES (1, 'alice@example.com', 'Alice Martin', 'USER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (2, 'bob@example.com', 'Bob Dupont', 'TECH_LEAD');
+INSERT INTO app_users (id, email, full_name, role) VALUES (3, 'charlie@example.com', 'Charlie Leroy', 'DEVELOPER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (4, 'diana@example.com', 'Diana Moreau', 'ADMIN');
+INSERT INTO app_users (id, email, full_name, role) VALUES (5, 'eric@example.com', 'Éric Bernard', 'REVIEWER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (6, 'fatima@example.com', 'Fatima Benali', 'DEVELOPER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (7, 'georges@example.com', 'Georges Petit', 'USER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (8, 'helene@example.com', 'Hélène Rousseau', 'TECH_LEAD');
+INSERT INTO app_users (id, email, full_name, role) VALUES (9, 'ivan@example.com', 'Ivan Novak', 'REVIEWER');
+INSERT INTO app_users (id, email, full_name, role) VALUES (10, 'julie@example.com', 'Julie Fontaine', 'ADMIN');

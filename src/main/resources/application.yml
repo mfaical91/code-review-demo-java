@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: code-review-demo
+  datasource:
+    url: jdbc:h2:mem:codereviewdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+    show-sql: true
+
+app:
+  api:
+    secret: ${APP_API_SECRET:demo-local-secret-change-me}

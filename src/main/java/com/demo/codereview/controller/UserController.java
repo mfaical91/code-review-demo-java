@@ -42,11 +42,11 @@ public class UserController {
         return users;
     }*/
 
-    @GetMapping("/search-safe")
+ /*   @GetMapping("/search-safe")
     public List<User> searchUsersSafe(@RequestParam String email) {
         return userRepository.findByEmailIgnoreCase(email);
     }
-
+*/
     @GetMapping("/all")
     public List<User> getAllUsers() {
         return userRepository.findAll();

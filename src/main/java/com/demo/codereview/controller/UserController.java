@@ -52,14 +52,6 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @GetMapping("/users")
-    public List<User> getAllUsers2() {
-        return userRepository.findAll();
-    }
-    @GetMapping("/users3")
-    public List<User> getAllUsers3() {
-        return userRepository.findAll();
-    }
 
 
 }

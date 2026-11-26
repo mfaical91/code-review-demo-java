@@ -47,15 +47,18 @@ public class UserController {
         return userRepository.findByEmailIgnoreCase(email);
     }
 */
-    @GetMapping("/all")
-    public List<User> getAllUsers() {
-        return userRepository.findAll();
-    }
 
     @GetMapping("/alls")
     public List<User> getAllUserss() {
         return userRepository.findAll();
     }
+
+
+    @GetMapping("/all")
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
+    }
+
 
 
 

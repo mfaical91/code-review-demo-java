@@ -48,11 +48,6 @@ public class UserController {
     }
 */
 
-    @GetMapping("/alls")
-    public List<User> getAllUserss() {
-        return userRepository.findAll();
-    }
-
 
     @GetMapping("/all")
     public List<User> getAllUsers() {

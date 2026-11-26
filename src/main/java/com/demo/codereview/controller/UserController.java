@@ -40,7 +40,7 @@ public class UserController {
         }
 
         return users;
-    }*/
+    }
 
  /*   @GetMapping("/search-safe")
     public List<User> searchUsersSafe(@RequestParam String email) {
@@ -49,6 +49,11 @@ public class UserController {
 */
     @GetMapping("/all")
     public List<User> getAllUsers() {
+        return userRepository.findAll();
+    }
+
+    @GetMapping("/alls")
+    public List<User> getAllUserss() {
         return userRepository.findAll();
     }
 

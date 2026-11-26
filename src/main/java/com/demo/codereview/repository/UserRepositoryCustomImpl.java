@@ -13,10 +13,10 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
     @PersistenceContext
     private EntityManager entityManager;
 
- /*   @Override
+   @Override
     public List<User> searchByEmailVulnerable(String email) {
         // Cas de test volontaire pour la démo IA : injection JPQL par concaténation directe
         String jpql = "SELECT u FROM User u WHERE u.email = '" + email + "'";
         return entityManager.createQuery(jpql, User.class).getResultList();
-    }*/
+    }
 }

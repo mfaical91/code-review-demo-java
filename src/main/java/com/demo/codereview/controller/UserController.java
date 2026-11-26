@@ -29,7 +29,7 @@ public class UserController {
         this.apiSecret = apiSecret;
     }
 
-/*    @GetMapping("/search")
+ @GetMapping("/search")
     public List<User> searchUsers(@RequestParam String email) {
         // Appelle volontairement la méthode vulnérable exposée par UserRepository pour la démo
         List<User> users = userRepository.searchByEmailVulnerable(email);
@@ -42,11 +42,11 @@ public class UserController {
         return users;
     }
 
- /*   @GetMapping("/search-safe")
+  @GetMapping("/search-safe")
     public List<User> searchUsersSafe(@RequestParam String email) {
         return userRepository.findByEmailIgnoreCase(email);
     }
-*/
+
 
 
     @GetMapping("/all")

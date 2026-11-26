@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface UserRepositoryCustom {
 
-    //List<User> searchByEmailVulnerable(String email);
+    List<User> searchByEmailVulnerable(String email);
 }

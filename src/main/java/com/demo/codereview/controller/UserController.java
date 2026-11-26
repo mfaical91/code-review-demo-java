@@ -52,10 +52,11 @@ public class UserController {
         return userRepository.findAll();
     }
 
-
-    @GetMapping("/users")
+    @GetMapping("/alls")
     public List<User> getAllUserss() {
         return userRepository.findAll();
     }
+
+
 
 }
